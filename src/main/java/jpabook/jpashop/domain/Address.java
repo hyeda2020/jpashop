@@ -5,6 +5,7 @@ import lombok.Getter;
 
 @Embeddable
 @Getter
+// @Setter // 실무에서는 가급적 @Setter 를 사용하지 말자!
 public class Address {
 
     String city;
