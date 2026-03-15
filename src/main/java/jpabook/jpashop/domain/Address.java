@@ -18,7 +18,7 @@ public class Address {
     }
 
     // @Setter 대신에 생성자에 값을 초기화해서 변경 불가능 클래스로 만듦.
-    public Address(Category parent, String city, String street, String zipcode) {
+    public Address(String city, String street, String zipcode) {
         this.city = city;
         this.street = street;
         this.zipcode = zipcode;
